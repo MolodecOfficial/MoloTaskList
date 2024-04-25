@@ -1,6 +1,7 @@
 <script setup>
 import TaskForm from "./TaskForm.vue";
 import {ref} from "vue";
+
 function newTask(newTitle, newDescription) {
   tasks.value.push({
     title: newTitle,
